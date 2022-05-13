@@ -12,4 +12,5 @@ print('Cols: ', wks.col_count)
 
 #print(wks.get_all_records())
 
-wks.update('A3', 'FFFF')
+#wks.update('A3', 'FFFF')
+wks.update('E3', '=UPPER(B2)', raw=False)
