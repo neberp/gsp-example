@@ -8,6 +8,8 @@ wks = sh.worksheet("Sheet")
 print('Rows: ', wks.row_count)
 print('Cols: ', wks.col_count)
 
-print(wks.acell('A9').value)
+#print(wks.acell('A9').value)
 
-print(wks.get_all_records())
+#print(wks.get_all_records())
+
+wks.update('A3', 'FFFF')
